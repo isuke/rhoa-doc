@@ -4,7 +4,7 @@
     | Rhoa
     span.version v{{rhoaVersion}}
 
-  p Rhoa is a Vue.js 2.0 useful mini components for Web.
+  p.introduction Rhoa is a Vue.js 2.0 useful mini components for Web.
 
   usage
 
