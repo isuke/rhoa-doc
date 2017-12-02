@@ -33,6 +33,6 @@ export default
       default: null
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .component-doc {}
 </style>
