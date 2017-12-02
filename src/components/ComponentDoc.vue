@@ -5,6 +5,7 @@ article.component-doc
   p(v-html="doc.description")
   pre
     code {{doc.token}}
+  .bin(v-html="bin", v-if="bin")
   table
     thead
       tr
@@ -20,12 +21,16 @@ article.component-doc
         td {{value.note}}
 </template>
 
-<script lang="coffee" scoped>
+<script lang="coffee">
 export default
   props:
     doc:
       type: Object
       required: true
+    bin:
+      tyoe: String
+      required: false
+      default: null
 </script>
 
 <style lang="stylus">
