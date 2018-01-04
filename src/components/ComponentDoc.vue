@@ -1,9 +1,9 @@
 <template lang="pug">
 article.component-doc
-  h2.name {{doc.name}}
-  h3.introduction {{doc.introduction}}
-  p.description(v-html="doc.description")
+  h3.name {{doc.name}}
+  h4.introduction {{doc.introduction}}
   pre: code.token.html {{doc.token}}
+  p.description(v-html="doc.description")
   table.props
     thead.head
       tr.row
