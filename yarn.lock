@@ -4131,9 +4131,9 @@ resolve@^1.1.6, resolve@^1.1.7, resolve@^1.3.3:
   dependencies:
     path-parse "^1.0.5"
 
-rhoa@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/rhoa/-/rhoa-0.0.9.tgz#7dc912994bb717799e3e2f3d737ef681b6fdcee7"
+rhoa@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/rhoa/-/rhoa-0.1.0.tgz#e872d6ef1c0fe512654fcd6677b2756d48c50a9a"
   dependencies:
     lodash "^4.17.4"
     vue "^2.3.3"
