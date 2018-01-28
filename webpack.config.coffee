@@ -6,6 +6,12 @@ CleanWebpackPlugin = require('clean-webpack-plugin')
 FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 
 loader = {}
+loader.vuePre = [
+  {
+    loader: 'vue-pug-lint-loader'
+    options: JSON.parse(fs.readFileSync(path.resolve(__dirname, '.pug-lintrc')))
+  }
+]
 loader.coffeePre = [
   {
     loader: 'coffeelint-loader'
@@ -42,6 +48,12 @@ baseConfig =
     publicPath: ''
   module:
     rules: [
+      {
+        test: /\.vue$/
+        enforce: "pre"
+        exclude: /node_modules/
+        use: loader.vuePre
+      }
       {
         test: /\.vue$/
         use:
