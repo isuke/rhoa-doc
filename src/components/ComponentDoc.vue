@@ -21,6 +21,7 @@ article.component-doc
         td.default {{value.required ? '-' : value.default}}
         td.notes {{value.note}}
   .bin(v-html="bin", v-if="bin")
+  a.source(:href="sourceUrl", v-if="sourceUrl", target="_blank") Source
 </template>
 
 <script lang="coffee">
@@ -30,6 +31,10 @@ export default
       type: Object
       required: true
     bin:
+      tyoe: String
+      required: false
+      default: null
+    sourceUrl:
       tyoe: String
       required: false
       default: null

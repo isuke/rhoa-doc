@@ -2,7 +2,7 @@
 .component-docs
   h2.title Components
 
-  component-doc.doc(v-for="docObject, index in docObjects", key="docObject.doc.name", :doc="docObject.doc", :bin="docObject.bin")
+  component-doc.doc(v-for="docObject, index in docObjects", key="docObject.doc.name", :doc="docObject.doc", :bin="docObject.bin", :source-url="docObject.sourceUrl")
 </template>
 
 <script lang="coffee">
