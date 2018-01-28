@@ -9,6 +9,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "predeploy": "yarn run build",
     "deploy": "cat deploy.coffee | coffee -sc | node",
+    "lint": "yarn run pug-lint-vue src && yarn run lint:coffee",
     "lint:pug": "pug-lint-vue src",
     "lint:coffee": "coffeelint src"
   },
