@@ -45,15 +45,8 @@ export default
 </script>
 
 <style lang="stylus" scoped>
-.top
+.usage
   color: default-font-color
-  margin-top: small-spacing
-  margin-left: large-spacing
-  margin-right: large-spacing
 
-  > .title
-    > .version
-      margin-left: small-spacing
-      font-size: base-font-size
-      color: dark-gray
+  > .title {}
 </style>
