@@ -28,21 +28,18 @@ export default
         doc: propDoc.getDoc(rhoa.SmartLink)
         bin: """
           <p data-height="265" data-theme-id="0" data-slug-hash="yvBzWr" data-default-tab="html,result" data-user="isuke" data-embed-version="2" data-pen-title="SmartLink" class="codepen">See the Pen <a href="https://codepen.io/isuke/pen/yvBzWr/">SmartLink</a> by isuke (<a href="https://codepen.io/isuke">@isuke</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-          <xscript async src="https://production-assets.codepen.io/assets/embed/ei.js"></xscript>
         """
       }
       {
         doc: propDoc.getDoc(rhoa.FlexibleImage)
         bin: """
           <p data-height="265" data-theme-id="0" data-slug-hash="QQLqXJ" data-default-tab="html,result" data-user="isuke" data-embed-version="2" data-pen-title="FlexibleImage" class="codepen">See the Pen <a href="https://codepen.io/isuke/pen/QQLqXJ/">FlexibleImage</a> by isuke (<a href="https://codepen.io/isuke">@isuke</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-          <xscript async src="https://production-assets.codepen.io/assets/embed/ei.js"></xscript>
         """
       }
       {
         doc: propDoc.getDoc(rhoa.SingleSubmitButton)
         bin: """
           <p data-height="265" data-theme-id="0" data-slug-hash="bLbYGx" data-default-tab="js,result" data-user="isuke" data-embed-version="2" data-pen-title="SingleSubmitButton" class="codepen">See the Pen <a href="https://codepen.io/isuke/pen/bLbYGx/">SingleSubmitButton</a> by isuke (<a href="https://codepen.io/isuke">@isuke</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-          <xscript async src="https://production-assets.codepen.io/assets/embed/ei.js"></xscript>
         """
       }
     ]

@@ -20,7 +20,7 @@ article.component-doc
         td.type {{value.type}}
         td.default {{value.required ? '-' : value.default}}
         td.notes {{value.note}}
-  .bin(v-html="fixedBin", v-if="bin")
+  .bin(v-html="bin", v-if="bin")
 </template>
 
 <script lang="coffee">
@@ -33,8 +33,6 @@ export default
       tyoe: String
       required: false
       default: null
-  computed:
-    fixedBin: -> @bin.replace(/xscript/, 'script')
   methods:
     idName: (baseName) ->
       _.kebabCase baseName.replace(/\./, '-')
