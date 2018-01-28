@@ -23,7 +23,7 @@ export default
     usageNPM1: """
       $ npm install rhoa --save
       # or
-      $ yarn add -D rhoa
+      $ yarn add rhoa
     """
     usageNPM2: """
       <template>

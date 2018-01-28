@@ -1,3 +1,4 @@
+fs = require('fs')
 path = require('path')
 webpack = require('webpack')
 merge = require('webpack-merge')
