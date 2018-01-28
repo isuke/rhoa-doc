@@ -13,7 +13,7 @@ export default
     'component-doc': ComponentDoc
   props:
     docObjects:
-      type: String
+      type: Array
       required: true
 </script>
 
