@@ -1,7 +1,7 @@
 {
   "name": "rhoa-doc",
   "description": "Rhoa document",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "isuke <isuke770@gmail.com>",
   "private": true,
   "scripts": {
@@ -16,7 +16,7 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "propdoc": "^0.9.1",
-    "rhoa": "0.1.0",
+    "rhoa": "0.1.1",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1"
   },

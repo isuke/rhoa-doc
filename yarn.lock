@@ -5045,9 +5045,9 @@ restore-cursor@^1.0.1:
     exit-hook "^1.0.0"
     onetime "^1.0.0"
 
-rhoa@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/rhoa/-/rhoa-0.1.0.tgz#e872d6ef1c0fe512654fcd6677b2756d48c50a9a"
+rhoa@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/rhoa/-/rhoa-0.1.1.tgz#c1d471c248aa435420ece3846e3dbfe349815612"
   dependencies:
     lodash "^4.17.4"
     vue "^2.3.3"
