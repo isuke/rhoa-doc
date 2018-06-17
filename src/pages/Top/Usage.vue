@@ -1,11 +1,11 @@
 <template lang="pug">
 .usage
   h2.title Usage
-  article.cdn
-    h3 CDN
+  article.article.cdn
+    h3.hedding CDN
     pre: code.html(v-text="usageCDN")
-  article.npm
-    h3 NPM
+  article.article.npm
+    h3.hedding NPM
     pre: code.bash(v-text="usageNPM1")
     pre: code.html(v-text="usageNPM2")
 </template>
@@ -46,7 +46,21 @@ export default
 
 <style lang="stylus" scoped>
 .usage
-  color: default-font-color
+  > .article
+    position: relative;
+    margin-left: - base-spacing
+    margin-right: - base-spacing
+    margin-bottom: base-spacing
+    border: meek-border-size solid dark-gray
+    border-radius: base-border-radius
+    padding: base-spacing
 
-  > .title {}
+    > .hedding
+      position: absolute
+      top: 0
+      left: - small-spacing
+      padding: 0 small-spacing
+      margin: 0
+      background-color: white
+      transform: translateY(-50%) translateX(base-spacing)
 </style>

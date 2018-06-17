@@ -18,15 +18,15 @@ export default
 </script>
 
 <style lang="stylus" scoped>
-.top
-  color: default-font-color
-  margin-top: small-spacing
-  margin-left: large-spacing
-  margin-right: large-spacing
-
+.component-docs
   > .title
     > .version
       margin-left: small-spacing
       font-size: base-font-size
       color: dark-gray
+
+  > .doc
+    margin-left: - base-spacing
+    margin-right: - base-spacing
+    margin-bottom: large-spacing
 </style>

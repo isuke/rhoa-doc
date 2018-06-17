@@ -4,7 +4,10 @@
     | Rhoa
     span.version v{{rhoaVersion}}
 
-  p.introduction Rhoa is a Vue.js 2.0 mini no style components for Web.
+  p.introduction
+    | Rhoa is a Vue.js 2.0 mini
+    span.strong &nbsp;No UI&nbsp;
+    | components for Web.
 
   usage.usage
 
@@ -53,15 +56,18 @@ export default
 <style lang="stylus" scoped>
 .top
   color: default-font-color
-  margin-top: small-spacing
-  margin-left: large-spacing
-  margin-right: large-spacing
+  margin: large-spacing
 
   > .title
     > .version
       margin-left: small-spacing
       font-size: base-font-size
       color: dark-gray
+
+  > .introduction
+    > .strong
+      color: red
+      font-weight: bold
 
   > .usage
     margin-bottom: large-spacing

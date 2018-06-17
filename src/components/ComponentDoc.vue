@@ -3,7 +3,7 @@ article.component-doc
   h3.name {{doc.name}}
   h4.introduction {{doc.introduction}}
   pre: code.token.html {{doc.token}}
-  p.description(v-html="doc.description")
+  .description(v-html="doc.description")
   table.props
     thead.head
       tr.row
@@ -45,6 +45,20 @@ export default
 
 <style lang="stylus" scoped>
 .component-doc
+  position: relative;
+  border: meek-border-size solid dark-gray
+  border-radius: base-border-radius
+  padding: base-spacing
+
+  > .name
+    position: absolute
+    top: 0
+    left: - small-spacing
+    margin: 0
+    padding: 0 small-spacing
+    background-color: white
+    transform: translateY(-50%) translateX(base-spacing)
+
   > .props
     table()
     width: 100%
